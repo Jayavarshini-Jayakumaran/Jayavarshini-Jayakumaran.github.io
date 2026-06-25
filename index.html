@@ -392,6 +392,29 @@ nav{
   text-transform:uppercase;color:var(--grey2);margin-bottom:1.2rem
 }
 
+/* ── WRITING ── */
+#writing{text-align:center;padding:6rem 2rem}
+.writing-inner{max-width:680px;margin:0 auto}
+.writing-desc{
+  font-size:1rem;color:var(--grey);line-height:1.8;
+  max-width:520px;margin:0 auto 2.8rem;
+}
+.writing-btn{
+  display:inline-flex;align-items:center;gap:.6rem;
+  background:transparent;
+  border:2px solid var(--green);
+  color:var(--green);
+  border-radius:30px;
+  padding:12px 28px;
+  font-size:.9rem;font-weight:700;
+  text-decoration:none;transition:background .2s,box-shadow .25s,transform .2s;cursor:pointer
+}
+.writing-btn:hover{
+  background:var(--green);color:#fff;
+  box-shadow:var(--grad-glow);transform:translateY(-2px)
+}
+.writing-btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2}
+
 /* ── CONTACT ── */
 #contact{text-align:center;padding:6rem 2rem}
 .contact-inner{max-width:700px;margin:0 auto}
@@ -466,6 +489,7 @@ footer{
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
+    <li><a href="#writing">Writing</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -840,6 +864,21 @@ footer{
   </div>
 </div>
 </div>
+
+<hr class="sep">
+
+<!-- WRITING -->
+<section id="writing">
+  <div class="writing-inner">
+    <div class="eyebrow">Writing</div>
+    <h2 class="section-title">Blog &amp; Insights</h2>
+    <p class="writing-desc">Exploring the mechanics of AI and data, from model internals to real-world pipelines, through clear, honest writing. Published on Medium.</p>
+    <a href="https://medium.com/@Jayavarshini_Jayakumaran" target="_blank" class="writing-btn">
+      <svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+      Read on Medium
+    </a>
+  </div>
+</section>
 
 <hr class="sep">
 
